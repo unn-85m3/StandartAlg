@@ -1,0 +1,4 @@
+C:\Projects\standart_alg\standart_alg\bin\Debug\standart_alg.exe
+C:\Projects\standart_alg\standart_alg\bin\Debug\standart_alg.pdb
+C:\Projects\standart_alg\standart_alg\obj\x86\Debug\standart_alg.exe
+C:\Projects\standart_alg\standart_alg\obj\x86\Debug\standart_alg.pdb
