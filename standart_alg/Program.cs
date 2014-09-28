@@ -23,7 +23,7 @@ namespace standart_alg
         }
 
 
-        public double Algorythm(double pin_min, double pin_max, double pout_min, double pout_max, double compr_min, double compr_max)
+        public double Algorithm(double pin_min, double pin_max, double pout_min, double pout_max, double compr_min, double compr_max)
         {
             double k, cost;
 
@@ -62,7 +62,7 @@ namespace standart_alg
             double compr_min = 0.5;
             double compr_max = 1;
 
-            double res = A.Algorythm(pin_min, pin_max, pout_min, pout_max, compr_min, compr_max);
+            double res = A.Algorithm(pin_min, pin_max, pout_min, pout_max, compr_min, compr_max);
             Console.WriteLine(res);
             Console.Write(A.H);
             Console.ReadKey();
