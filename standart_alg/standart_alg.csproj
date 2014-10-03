@@ -34,6 +34,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BlackBoxCommon">
+      <HintPath>..\..\..\bbs\BlackBoxCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="Core">
+      <HintPath>..\..\..\bbs\Core.dll</HintPath>
+    </Reference>
+    <Reference Include="KSModels">
+      <HintPath>..\..\..\bbs\KSModels.dll</HintPath>
+    </Reference>
+    <Reference Include="Logger">
+      <HintPath>..\..\..\bbs\Logger.dll</HintPath>
+    </Reference>
+    <Reference Include="MathTools">
+      <HintPath>..\..\..\bbs\MathTools.dll</HintPath>
+    </Reference>
+    <Reference Include="NumericalMethodsLibrary">
+      <HintPath>..\..\..\bbs\NumericalMethodsLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
