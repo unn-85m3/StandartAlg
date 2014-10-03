@@ -12,4 +12,3 @@ C:\Users\1\Desktop\GitHub\StandartAlg\standart_alg\bin\Debug\KSModels.dll
 C:\Users\1\Desktop\GitHub\StandartAlg\standart_alg\bin\Debug\Logger.dll
 C:\Users\1\Desktop\GitHub\StandartAlg\standart_alg\bin\Debug\MathTools.dll
 C:\Users\1\Desktop\GitHub\StandartAlg\standart_alg\bin\Debug\NumericalMethodsLibrary.dll
-C:\Users\1\Desktop\GitHub\StandartAlg\standart_alg\obj\x86\Debug\standart_alg.csprojResolveAssemblyReference.cache

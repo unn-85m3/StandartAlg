@@ -39,7 +39,7 @@ namespace standart_alg
             DllBlackBoxCalculator calc = new DllBlackBoxCalculator(@"C:\Users\1\Desktop\GitHub\StandartAlg\standart_alg\bbs\Models\1.1.КС.r1", null);
             for (double i = pin_min; i <= pin_max; i = i + h)
                 for (double j = pout_min; j <= pout_max; j = j + h)
-                    if (((i / j) <= compr_max) && ((i / j) >= compr_min))
+                    if (((j / i) <= compr_max) && ((j / i) >= compr_min))
                     {
                         try
                         {
@@ -71,7 +71,7 @@ namespace standart_alg
         static void Main(string[] args)
         {
             standart_alg A = new standart_alg();
-            A.H = 0.5;
+            A.H = 1;
             ///в библиотеке определены константы 
             ///PInMax = 80.0
             ///PInMin = 45.0
@@ -87,8 +87,8 @@ namespace standart_alg
             double pin_max = 60;
             double pout_min = 60;
             double pout_max = 70;
-            double compr_min = 0.8;
-            double compr_max = 0.9;
+            double compr_min = 1.2;
+            double compr_max = 1.4;
 
             double res = A.Algorithm(pin_min, pin_max, pout_min, pout_max, compr_min, compr_max);
             Console.WriteLine("cost = {0}", res);
